@@ -1,9 +1,37 @@
-*{
- padding: 0;
- margin: 0;
- box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-h1 {
- color: red;
+.page-nav {
+  position: relative;
+  background-color: #3e3e3e;
+  height: 8vh;
+}
+
+.app-nav {
+  position: absolute;
+  width: 100vw;
+  top: 4vh;
+  height: 6vh;
+  background-color: #f4f4f4;
+  box-shadow: 0 0 10px #3e3e3e;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 550px;
+  background-image: url(../imgs/img1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 30%;
+}
+
+.app-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+.app-title span {
+  color: #ddb81c;
+  text-shadow: 2px 2px #415aab;
 }
