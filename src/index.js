@@ -5,7 +5,7 @@ import Likes from './modules/likeComment.js';
 
 class UI {
   static Movies = async () => {
-    const res = await fetch('https://pokeapi.co/api/v2/pokemon');
+    const res = await fetch('https://api.tvmaze.com/shows');
     const data = await res.json();
     console.log(data);
     const dataS = data.slice(0, 20);
@@ -15,7 +15,7 @@ class UI {
   static totalNumMovies = (dataS) => dataS.length;
 
   static getMovies = async () => {
-    const res = await fetch('https://pokeapi.co/api/v2/pokemon');
+    const res = await fetch('https://api.tvmaze.com/shows');
     const data = await res.json();
     const dataS = data.slice(0, 20);
 

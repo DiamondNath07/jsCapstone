@@ -1,4 +1,4 @@
-import './styles/main.scss';
+import './styles.css';
 import Close from './assets/close.png';
 import Likes from './modules/likeComment.js';
 
@@ -97,11 +97,6 @@ async function showPop(id) {
   });
 }
 
-// ------Footer-------
-const footer = document.createElement('footer');
-const textFooter = document.createElement('p');
-textFooter.textContent = 'Created by John and Diego MTI license';
-footer.appendChild(textFooter);
-document.lastElementChild.appendChild(footer);
+
 
 export { showPop, commentD };
