@@ -97,6 +97,11 @@ async function showPop(id) {
   });
 }
 
-
+// ------Footer-------
+const footer = document.createElement('footer');
+const textFooter = document.createElement('p');
+textFooter.textContent = 'Created by Diamond Nathaniel';
+footer.appendChild(textFooter);
+document.lastElementChild.appendChild(footer);
 
 export { showPop, commentD };
