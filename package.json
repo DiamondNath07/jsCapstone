@@ -1,5 +1,5 @@
 {
-  "name": "pokemon_World",
+  "name": "pokemon_world",
   "version": "1.0.0",
   "description": "This is a CRUD operation application that works with an API to perform basic 'create' and 'Read' function. It is built using webpack, vanilla javascrip, HTML&amp;CSS and API",
   "private": true,
@@ -212,5 +212,6 @@
     "yaml": "^1.10.2",
     "yargs-parser": "^20.2.9",
     "zwitch": "^1.0.5"
-  }
+  },
+  "main": "webpack.config.js"
 }
