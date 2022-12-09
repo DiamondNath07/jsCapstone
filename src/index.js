@@ -8,7 +8,7 @@ class UI {
     const res = await fetch('https://api.tvmaze.com/shows');
     const data = await res.json();
     console.log(data);
-    const dataS = data.slice(0, 20);
+    const dataS = data.slice(20, 38);
     this.totalNumMovies(dataS);
   };
 
@@ -17,7 +17,7 @@ class UI {
   static getMovies = async () => {
     const res = await fetch('https://api.tvmaze.com/shows');
     const data = await res.json();
-    const dataS = data.slice(0, 20);
+    const dataS = data.slice(20, 38);
 
     const hearder = document.querySelector('header');
     const headerImg = document.createElement('img');
