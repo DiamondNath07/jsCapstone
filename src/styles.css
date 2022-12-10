@@ -16,6 +16,10 @@ body {
   color: white;
 }
 
+.titleH {
+  display: hidden;
+}
+
 header {
   display: flex;
   align-items: center;
