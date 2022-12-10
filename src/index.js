@@ -33,8 +33,6 @@ class UI {
       likedata.forEach((y) => {
         if (y.item_id === x.id) {
           x.like = y.likes;
-          // console.log(x.like);
-          // console.log(y.likes);
 
           return x.like;
         }

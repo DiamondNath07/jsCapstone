@@ -81,7 +81,7 @@
 
 > View live here
 
-- [Live Demo Link](https://diamondnath07.github.io/jsCapstone//dist/)
+- [Live Demo Link](https://diamondnath07.github.io/jsCapstone/dist/)
 - [Kanban board ](https://github.com/users/DiamondNath07/projects/1)
 - [repository link ](https://github.com/DiamondNath07/jsCapstone.git)
 - [recording link ](https://drive.google.com/drive/folders/13iyevFiwr_6FDyUrbZAmcgc1zdWOHKF_?usp=share_link)
