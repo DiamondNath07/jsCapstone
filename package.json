@@ -4,7 +4,7 @@
   "description": "This is a CRUD operation application that works with an API to perform basic 'create' and 'Read' function. It is built using webpack, vanilla javascrip, HTML&amp;CSS and API",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "webpack serve --open",
     "server": "node server.js",
     "build": "webpack"
