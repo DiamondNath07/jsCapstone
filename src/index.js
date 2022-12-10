@@ -7,7 +7,7 @@ class UI {
   static Movies = async () => {
     const res = await fetch('https://api.tvmaze.com/shows');
     const data = await res.json();
-    console.log(data);
+
     const dataS = data.slice(20, 38);
     this.totalNumMovies(dataS);
   };
@@ -31,7 +31,14 @@ class UI {
     const likedata = await Likes.getLikes();
     dataS.forEach((x) => {
       likedata.forEach((y) => {
-        y.item_id === x.id ? (x.like = y.likes) : x;
+        if (y.item_id === x.id) {
+          x.like = y.likes;
+          // console.log(x.like);
+          // console.log(y.likes);
+
+          return x.like;
+        }
+        return x;
       });
 
       const cardsContainer = document.querySelector('.cardsContainer');

@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals';
-import { totalComment, totalNumMovies } from './__mock__/fake_api.js.js';
+import { totalComment, totalNumMovies } from './__mock__/fake_api.js';
 // import UI from '../index.js';
 
 describe('Total Number of Comments', () => {
