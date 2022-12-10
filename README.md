@@ -1,5 +1,8 @@
+
+
 # pokeman_World
 This is a web application that renders data using the pokeApi and also features a counter API to keep track of the numbers of likes a particular cartoon has. It also takes record of visitors comments and displays it on a pop-up page
+
 <a name="readme-top"></a>
 
 <div align="center">
@@ -83,7 +86,9 @@ This is a web application that renders data using the pokeApi and also features 
 
 > View live here
 
-- [Live Demo Link](https://diamondnath07.github.io/jsCapstone//dist/)
+
+- [Live Demo Link](https://diamondnath07.github.io/jsCapstone/dist/)
+
 - [Kanban board ](https://github.com/users/DiamondNath07/projects/1)
 - [repository link ](https://github.com/DiamondNath07/jsCapstone.git)
 - [recording link ](https://drive.google.com/drive/folders/13iyevFiwr_6FDyUrbZAmcgc1zdWOHKF_?usp=share_link)
