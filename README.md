@@ -18,6 +18,8 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🚀 kanban Board](#link)
+  - [🚀 Live Recording](#link)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -35,11 +37,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [leaderBoard] <a name="about-project"></a>
+# 📖 [Movie_App] <a name="about-project"></a>
 
-> This is a CRUD operation application that works with an API to perform basic 'create' and 'Read' function. It is built using webpack, vanilla javascrip, HTML&CSS and API
+> This is an application that works with tvmaize API. It is built using webpack, vanilla javascrip, HTML&CSS and API
 
-**[leaderBoard]** is a CRUD operation application
+**[Movie_App]** is a CRUD operation application
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -79,7 +81,10 @@
 
 > View live here
 
-- [Live Demo Link](https://diamondnath07.github.io/leaderBoard/dist/)
+- [Live Demo Link](https://diamondnath07.github.io/jsCapstone//dist/)
+- [Kanban board ](https://github.com/users/DiamondNath07/projects/1)
+- [repository link ](https://github.com/DiamondNath07/jsCapstone.git)
+- [recording link ](https://drive.google.com/drive/folders/13iyevFiwr_6FDyUrbZAmcgc1zdWOHKF_?usp=share_link)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +110,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-https://github.com/DiamondNath07/leaderBoard
+https://github.com/DiamondNath07/jsCapstone.git
 
 ```
 
@@ -154,7 +159,7 @@ run npm start
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/DiamondNath07/leaderBoard/issues).
+Feel free to check the [issues page]https://github.com/DiamondNath07/jsCapstone.git/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
